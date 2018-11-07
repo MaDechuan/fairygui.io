@@ -71,7 +71,7 @@ Unity的Blend效果与编辑器中的预览可能会有差别。开发者可以�
 如果你要对使用了自定义遮罩的组件进行设置倾斜、设置BlendMode，设置滤镜，又或者曲面UI中含有自定义遮罩的组件时，需要额外的设置才能显示正常。
 
 ```csharp
-    UIConfig.depthSupportForPaitingMode = true;
+    UIConfig.depthSupportForPaintingMode = true;
 ```
 
 ## TIPS属性
